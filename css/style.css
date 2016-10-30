@@ -1,0 +1,115 @@
+/*
+autor: jvar.dev@gmail.com
+archivo: style.css
+2016
+*/
+/* general */
+@font-face {
+    font-family: InconsolataRegular;
+    src: url(../fonts/Inconsolata/Inconsolata-Regular.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    font-family: InconsolataRegular;
+    font-size: 22px;
+    color: #010305;
+    text-decoration: none;
+}
+
+div.auto { 
+    width: 672px;
+    margin: auto;
+}
+
+/* estructura -------------------------------- */
+/* header */
+#div_head {
+    height: 60px;
+    margin-top: 60px;
+}
+
+/* base */
+/* none */
+#div_base {
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+}
+
+/* estilo del contenido ---------------------- */
+/* header */
+
+#div_head,
+#p_presentacion2, 
+#p_personal, 
+#div_footer{
+    display: none;
+}
+
+#p_presentacion {
+    font-family: Helvetica;
+    font-size: 28px;
+}
+
+#p_presentacion, ul li{
+    color: #343437;
+}
+
+ul li {
+     text-transform: lowercase;
+}
+
+
+#p_experiencia {
+    margin-top: 20px;
+}
+
+#p_interesado {
+    margin-top: 10px;
+}
+
+#p_projects {
+    margin-top: 10px;
+}
+
+#p_contacto {
+    margin-top: 20px;
+    color: #0A4990;
+    font-size: 20px;
+}
+
+#p_contacto a {
+    font-weight: bold;
+    color: #343437;
+    font-size: 20px;
+}
+
+#p_contacto a:hover {
+    text-decoration: underline;
+}
+
+#key_interesado, 
+#key_experiencia,
+#key_projects {
+    font-weight: bold;
+    color: #0A4990;
+    text-transform: uppercase;
+}
+
+#key_nombre {
+    font-family: Helvetica;
+    font-size: 32px;
+    color: #1B0830;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+#key_desarrollador, #key_proyectos {
+    font-family: Helvetica;
+    font-size: 24px;
+    color: #1B0830;
+}
+
+
+
